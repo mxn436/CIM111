@@ -1,0 +1,38 @@
+body{
+  font-family: Georgia, "Times New Roman",
+          Times, serif;
+  color: black;
+  background-color: #d8da3d}
+  h4{
+    color: white;
+    }
+  a:hover{
+      background-color: purple;
+    }
+    a{
+      color: grey;
+      text-decoration: none;
+    }
+    li{
+      font-size: 20px;
+      list-style: circle;
+    }
+    .underline{
+      text-decoration: underline;
+      font-weight: bold;
+   }
+   .fancy{
+     font-weight: bold;
+     text-shadow: 4px 4px 3px #77f;
+   }
+  address {
+  font-family: 'Vibes', cursive;
+   }
+   table {
+     font-family: 'Permanent Marker', cursive;
+   }
+   .table {
+  border: solid red;
+  border-top-color: red;
+    width: auto;
+}
