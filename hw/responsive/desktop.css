@@ -1,0 +1,101 @@
+header{
+  background-color: orange;
+  width: 1200px;
+  height: 100px;
+  padding: 20px 20px 20px 20px;
+
+  border-width: 5px 5px 5px 5px;
+  border-color: black;
+  border-style: solid;
+
+  margin: 20px auto 30px auto;
+  margin: 0 auto;
+  margin-top: 10px;
+
+}
+main{
+  background-color: orange;
+  width: 1200px;
+  height: 1300px;
+  padding: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+}
+footer{
+  background-color: orange;
+  width: 900px;
+  height: auto;
+
+  margin: 0 auto;
+}
+nav{
+  background-color: orange;
+  width: 400px;
+  margin: 0 auto;
+}
+nav ul li{
+  list-style: none;
+display: inline-block;
+margin-right: 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px
+}
+
+nav ul li:hover{
+    background-color: lightblue;
+
+  }
+  h1{
+    text-align: center;
+  }
+
+
+  #grid2{
+  display: grid;
+  grid-template-columns: 550px 375px 450px;
+  margin-right: 20px;
+}
+#grid2 img{
+  width: 200px;
+}
+#grid1 img{
+  width: 200px;
+}
+#grid1{
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 300px 300px;
+
+}
+#grid3 img{
+  width: 200px;
+}
+#grid3{
+  display: grid;
+  margin-right: 20px;
+  grid-template-columns: 500px 500px 500px;
+}
+#grid4 img{
+  width: 200px;
+}
+#grid4{
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+}

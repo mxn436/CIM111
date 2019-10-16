@@ -1,0 +1,71 @@
+@import "desktop.css";
+
+header{
+  width: 400px;
+  height: 200px;
+}
+main{
+  width: 400px;
+  height: auto;
+}
+footer{
+  width: 300px;
+}
+nav{
+  width: 200px;
+}
+nav ul{
+  margin-left: 10px;
+}
+nav ul li{
+  display: block;
+  text-align: center;
+}
+h1{
+  width: 400px
+
+}
+#grid1{
+  width: 300px;
+  display: block;
+}
+#grid1 img{
+  width: 100px;
+}
+#grid2{
+  width: 300px;
+  display: block;
+}
+#grid2 img{
+  width: 100px;
+}
+#grid3{
+  width: 300px;
+  display: block;
+}
+#grid3 img{
+  width: 100px;
+}
+#grid4{
+  width: 400px;
+  display: block;
+}
+#grid4 img{
+  width: 100px;
+}
+#About{
+  width: 200px;
+  display: block;
+}
+#Cages{
+  width: 200px;
+  display: block;
+}
+#ChewToys{
+  width: 200px;
+  display: block;
+}
+#SandBath{
+  width: 200px;
+  display: block;
+}
