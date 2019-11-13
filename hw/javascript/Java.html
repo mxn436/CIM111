@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cheesecake Recipe</title>
+    <style media="screen">
+
+    header{
+      background-color: Brown;
+      width: 1300px;
+      height: 150px;
+      padding: 20px;
+
+      border-width: 5px 5px 5px;
+      border-color: black;
+      border-style: solid;
+
+      margin: 20px auto 30px auto;
+      margin: 0 auto;
+      margin-top: 10px;
+
+      }
+      h1{
+        text-align: center;
+        font-family: 'McLaren', cursive;
+        font-size: 50px;
+      }
+      img{
+        width: 200px;
+        margin-bottom: 20px 20px;
+        padding: 20px 20px;
+      }
+
+
+      }
+      ul{
+        width: 400px
+        margin: 0 auto;
+      }
+
+      ul li{
+        list-style: none;
+      display: inline-block;
+      margin-right: 20px;
+      text-decoration: none;
+      color: black;
+      font-size: 20px
+      }
+
+      {
+        id: "slidr-id",
+        in: {
+          el: #<HTMLElement>,
+          slidr: "data-slidr-in",
+          trans: "transition-in",
+          dir: "direction-in"
+        },
+        out: {
+          el: #<HTMLElement>,
+          slidr: "data-slidr-out",
+          trans: "transition-out",
+          dir: "direction-out"
+        }
+      }
+
+
+
+
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <h1>Cheesecake Recipe</h1>
+
+        <ul>
+          <li>Gallery</li>
+          <li>Equipment</li>
+          <li>Mixing</li>
+          <li>Recipe</li>
+        </ul>
+  </header>
+
+    <section>
+      <h2>Gallery</h2>
+      <p>This is my favorite recipe for New York-style cheesecake, and includes a great technique for letting the citrus-kissed cake finish in the oven,
+        so that no crack forms when the cake cools. This New York style Cheesecake is topped with delicious strawberries.
+        The cramcracker crust is made from scratch and it's soft and topped with a huge layer of creamy cheesecake. </p>
+      </section>
+
+      <div id="slidr-img" style="display: inline-block">
+        <img data-slidr="one" src="images/cheese4.jpg"/>
+        <img data-slidr="two" src="images/cheese2.jpg"/>
+        <img data-slidr="three" src="images/cheese3.jpg"/>
+      </div>
+
+      <h2 id="Equipment">Equipment</h2>
+      <section id="section1" class="grid">
+        <p>The tools used to prepare a cheesecake are as followed:</p>
+        <ul>
+          <li>Mixer</li>
+          <li>Spring pan</li>
+          <li>Aluminum Foil</li>
+          <li>Spatula</li>
+        </ul>
+        <img src="images/baking.png" alt="baking">
+        <img src="images/baking2.png" alt="baking2">
+        <img src="images/spring.png" alt="spring">
+      </section>
+
+      <section>
+        <h2>Mixing</h2>
+          <button id="btn1">Button1</button>
+          <button id="btn2">Button2</button>
+          <p class="para1">After creaming together butter and sugar, the next ingredient in many cookie recipes is eggs. They should be added one at a time,
+            each one thoroughly beaten in before the next is added, to allow the creamed butter/sugar mixture to most effectively retain its trapped air.
+            Be sure to scrape the sides of the bowl so all of the butter/sugar mixture is incorporated..</p>
+          </section>
+
+            <h2 id="section4mouse">Recipe</h2>
+            <section id="section4">
+              <p>•	Large eggs
+•	White sugar: granulated cane (not beet sugar)
+•	Brown sugar: dark or light
+•	Butter: unsalted American-style (not European)
+•	Milk: whole, 2%, 1%, or skim
+•	Salt: table salt
+•	Cocoa powder: unsweetened; either natural or Dutch process
+•	Vegetable oil: a neutral flavored oil like canola, sunflower, safflower, or a blend
+•	Buttermilk: full-fat, reduced-fat, low-fat, or nonfat
+•	Heavy cream or whipping cream: at least 30% milk fat
+•	Baking powder: double acting
+•	Yogurt: traditional or Greek-style, low-fat or full-fat
+•	Sour cream: low-fat or full-fat
+•	Light cream, half & half: interchangeable
+Egg temperature: If the recipe calls for room-temperature eggs and yours are cold from the fridge, place them in a bowl of hot tap water for 10 minutes before using.
+Butter temperature, salted/unsalted butter: If the recipe calls for room-temperature butter and yours is cold from the fridge, place wrapped stick in a bowl of barely warm (73°F) tap water for 10 to 15 minutes before using.
+If recipe calls for unsalted butter and you're using salted, reduce the added salt in the recipe by 1/4 teaspoon for every 8 tablespoons of butter used.
+Salt: For best results, use a standard-grain (table) salt; large-grain kosher and coarse-grain sea salt measure differently than table salt.
+Yogurt: You may wonder, why don't we call for nonfat yogurt or sour cream? Because compared to milk/buttermilk, these ingredients are regularly used for the fat they add. Going down to "light" or low-fat is enough compromise; going nonfat pretty severely affects the recipe.
+</p>
+
+               <img src="images/mixing.png" alt="mixing">
+               <img src="images/mixing1.png" alt="mixing1">
+               <img src="images/crust.png" alt="crust">
+          </section>
+
+      <script  type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script type="text/javascript" src="slidr.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+
+          $('#Equipment').on ('click', function(){
+            $('#section1').toggle(1000);
+          });
+
+          $("body").css("background-color", "grey");
+
+          $('#btn1').on('click', function(){
+            $('.para1').hide();
+          });
+
+          $('#btn2').click(function(){
+            $('.para1').show();
+          });
+
+          $("#section4mouse").mouseenter(function(){
+            $("#section4").show();
+          });
+
+          $("#section4").mouseleave(function(){
+            $("#section4").hide();
+          });
+
+          slidr.create('slidr-img').start();
+
+          // slidr.create('slidr-id', {
+          //   after: function(e) { console.log('in: ' + e.in.slidr); },
+          //   before: function(e) { console.log('out: ' + e.out.slidr); },
+          //   breadcrumbs: true,
+          //   controls: 'corner',
+          //   direction: 'vertical',
+          //   fade: false,
+          //   keyboard: true,
+          //   overflow: true,
+          //   theme: '#222',
+          //   timing: { 'cube': '0.5s ease-in' },
+          //   touch: true,
+          //   transition: 'cube'
+          // }).start();
+
+
+
+
+        });
+
+
+
+
+
+      </script>
+
+
+  </body>
+</html>
