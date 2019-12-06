@@ -1,0 +1,62 @@
+@import "desktop.css";
+
+header{
+  width: 400px;
+  height: 300px;
+}
+
+nav{
+  width: 200px;
+}
+nav ul{
+  margin: auto;
+}
+nav ul li{
+  display: block;
+  text-align: center;
+}
+h1{
+  width: 400px
+}
+#section1{
+  width: 300px;
+  display: block;
+  text-align: center;
+  margin: 70px;
+}
+#section1 img{
+  width: 200px;
+}
+#section2{
+  width: 300px;
+  display: block;
+  text-align: center;
+  margin: 80px;
+}
+#section2 img{
+  width: 200px;
+}
+#section3{
+  width: 300px;
+  display: block;
+  text-align: center;
+  margin: 50px;
+}
+
+#section4{
+  width: 400px;
+  display: block;
+  text-align: center;
+  margin-left: 20px;
+}
+#section4 img{
+  width: 200px;
+}
+#section5{
+  width: 400px;
+  display: block;
+  margin-left: 100px;
+}
+#section5 img{
+  width: 200px;
+}

@@ -1,0 +1,107 @@
+header{
+  background-color: white;
+  width: 1350px;
+  height: 210px;
+  padding: 20px 20px 20px 20px 20px 20px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Patrick Hand', cursive;
+
+  margin: 20px auto 30px auto;
+  margin: 0 auto;
+  margin-top: 10px;
+
+}
+nav{
+  background-color: white;
+  width: 400px;
+  margin: 0 auto;
+}
+nav ul li{
+  list-style: none;
+display: inline-block;
+margin-right: 20px;
+font-size: 20px;
+font-family: 'Odibee Sans', cursive;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px
+}
+
+nav ul li:hover{
+    background-color: #367588;
+
+  }
+  body{
+    background-color: #367588;
+    cursor: pointer;
+  }
+  h2{
+    text-align: center;
+  }
+  #section1 img{
+    width: 100px 100px 100px;
+    margin: 75px 75px 75px;
+    border-style: solid;
+  }
+  #section1 p{
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+  }
+  #section2 img{
+    width: 200px;
+    margin: 25px;
+    border-style: solid;
+  }
+  #section3{
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+  }
+  #section5 img{
+    width: 200px;
+    margin: 20px;
+    border-style: solid;
+  }
+  ul{
+    text-decoration: none;
+    list-style: none;
+  }
+  #About{
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+  }
+  #Gallery{
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+  }
+  #Shipping{
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+  }
+  #Gallery2{
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+  }
+  #Contact{
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+  }
+  #section4{
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+  }
+  #section4 img{
+    width: 200px 200px 200px;
+    margin: 30px 30px 30px;
+    border-style: solid;
+  }
+  #section6{
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+  }

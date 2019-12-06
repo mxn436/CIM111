@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Junicly</title>
+    <link rel="stylesheet" href="desktop.css" media="only screen and (min-width: 600px)">
+    <link rel="stylesheet" href="mobile.css" media="only screen and (max-width: 600px)">
+    <style media="screen">
+
+
+
+
+    </style>
+  </head>
+  <body>    <header>
+      <h1>JuNiCly</h1>
+      <nav>
+        <ul>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Gallery">Gallery</a></li>
+          <li><a href="#Price">Price</a></li>
+          <li><a href="#Shipping">Shipping</a></li>
+          <li><a href="#Gallery2">Gallery2</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="section1">
+      <h2 id="About">About</h2>
+      <p>Junicly was created to make home and gym equipment affordable to purchase.
+        We sell to a wide range of consumers and guarantee to satisfy most people's needs.
+        We sell great quality yoga products and crossfit equipment. </p>
+        <img src="images/yogalogo.png" alt="yogalogo">
+        <img src="images/crossfit6.png" alt="crossfit6">
+        <img src="images/yogalogo1.png" alt="yogalogo1">
+    </section>
+      <h2 id="Gallery">Gallery</h2>
+    <section id="section2" class="grid">
+      <img src="images/bagmat.png" alt="bag">
+      <img src="images/blocks.png" alt="blocks">
+      <img src="images/bundle.png" alt="bundle">
+      <img src="images/wear.png" alt="wear">
+      <img src="images/purplemat.png" alt="purplemat">
+    </section>
+    <section id="section3">
+      <h2 id="Price">Prices</h2>
+      <ul>
+        <li>Yoga Mat-$19.99</li>
+        <li>Yoga Blocks-$9.99</li>
+        <li>Mat Bag-$12.99</li>
+        <li>Towels-$6.99</li>
+        <li>Apparel-$9.99-$19.99</li>
+        <li>Bundle-59.99</li>
+      </ul>
+      <ul>
+        <li>Barbells-$19.99-$75.99</li>
+        <li>Plates-$9.99-$29.99</li>
+        <li>Wallball-$7.99-$19.99</li>
+        <li>Kettle bells-$9.99-$26.99</li>
+        <li>Rower-$120.00</li>
+        <li>Bundle-$79.99</li>
+      </ul>
+    </section>
+    <section id="section4">
+      <h2 id="Shipping">Shipping</h2>
+      <ul>
+        <li>Standard-$4.99</li>
+        <li>2nd day air-$6.99</li>
+        <li>Next day air-$7.99</li>
+      </ul>
+      <img src="images/USPS.png" alt="USPS">
+      <img src="images/ups.png" alt="ups">
+      <img src="images/fedex.png" alt="fedex">
+    </section>
+      <h2 id="Gallery2">Gallery2</h2>
+      <section id="section5" class="grid">
+      <img src="images/crossfit.png" alt="crossfit">
+      <img src="images/crossfit1.png" alt="crossfit1">
+      <img src="images/crossfit2.png" alt="crossfit2">
+      <img src="images/crossfit3.png" alt="crossfit3">
+      <img src="images/crossfit4.png" alt="crossfit4">
+    </section>
+    <section id="section6">
+      <h2 id="Contact">Contact</h2>
+      <ul>
+        <li>Junicly Innovation Solution</li>
+        <li>Junicly@gmail.com</li>
+        <li>305-555-777</li>
+      </ul>
+      </section>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="/your-path-to-fontawesome/js/all.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+
+      $('#Gallery').on ('click', function(){
+        $('#section2').toggle(1000);
+      });
+
+      $('#btn1').on('click', function(){
+        $('.para1').hide();
+      });
+
+      $('#btn2').click(function(){
+        $('.para1').show();
+      });
+
+      $('#Gallery2').on ('click', function(){
+        $('#section5').toggle(1000);
+      });
+
+      $('#btn1').on('click', function(){
+        $('#.para1').hide();
+      });
+
+      $('#btn2').click(function(){
+        $('.para1').show();
+      });
+
+
+
+
+    });
+
+
+
+
+
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154139096-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-154139096-1');
+  </script>
+
+
+
+
+<!-- add google analytics here -->
+
+  </body>
+</html>
